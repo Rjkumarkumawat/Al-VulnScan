@@ -70,7 +70,7 @@ Start the Ollama server:
 ollama serve
 ```
 
-### Step 2: Pull a Model (Mistral recommended)
+### Step 2: Pull a Model (llama3 recommended)
 
 ```bash
 ollama pull llama3
