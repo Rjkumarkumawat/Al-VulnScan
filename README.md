@@ -34,7 +34,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/ai-vulnscan.git
+git clone https://github.com/Rjkumarkumawat/Al-VulnScan.git
 cd ai-vulnscan
 ```
 
