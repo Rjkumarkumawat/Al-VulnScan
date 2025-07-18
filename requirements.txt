@@ -1,0 +1,5 @@
+openai
+python-nmap
+requests
+rich
+pyfiglet
