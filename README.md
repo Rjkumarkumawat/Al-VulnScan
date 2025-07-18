@@ -35,7 +35,7 @@
 
 ```bash
 git clone https://github.com/Rjkumarkumawat/Al-VulnScan.git
-cd ai-vulnscan
+cd Al-VulnScan
 ```
 
 ### 2. Create a Virtual Environment (Recommended)
@@ -73,13 +73,13 @@ ollama serve
 ### Step 2: Pull a Model (Mistral recommended)
 
 ```bash
-ollama pull mistral
+ollama pull llama3
 ```
 
 Other supported models:
 
 ```bash
-ollama pull llama3
+ollama pull mistral
 ollama pull codellama
 ```
 
@@ -105,25 +105,7 @@ python main.py
 
 ## 🔍 Sample Output
 
-```text
-██████╗ ██╗   ██╗██╗   ██╗██╗     ███████╗███╗   ██╗███████╗ ██████╗ █████╗ ███╗   ██╗
-██╔══██╗██║   ██║██║   ██║██║     ██╔════╝████╗  ██║██╔════╝██╔════╝██╔══██╗████╗  ██║
-██████╔╝██║   ██║██║   ██║██║     █████╗  ██╔██╗ ██║███████╗██║     ███████║██╔██╗ ██║
-██╔═══╝ ██║   ██║██║   ██║██║     ██╔══╝  ██║╚██╗██║╚════██║██║     ██╔══██║██║╚██╗██║
-██║     ╚██████╔╝╚██████╔╝███████╗███████╗██║ ╚████║███████║╚██████╗██║  ██║██║ ╚████║
-╚═╝      ╚═════╝  ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝
-
-Enter target IP address: 192.168.1.100
-Do you want to specify ports? (y/n): y
-Enter comma-separated ports: 21,22
-
-🔍 Port 21 - vsftpd 2.3.4
-📜 CVEs Found: CVE-2011-2523
-🧠 AI analysis complete.
-📄 Report updated for port 21
-
-✅ Scan complete. Report saved to report.md
-```
+<sample output omitted for brevity>
 
 ---
 
@@ -147,6 +129,6 @@ MIT License
 
 ## 🔗 Links
 
-- Project Repository: [github.com/<your-username>/ai-vulnscan](https://github.com/<your-username>/ai-vulnscan)
+- Project Repository: [github.com/Rjkumarkumawat/Al-VulnScan](https://github.com/Rjkumarkumawat/Al-VulnScan.git)
 - LLM Engine: [ollama.com](https://ollama.com)
 - CVE Database: [nvd.nist.gov](https://nvd.nist.gov)
